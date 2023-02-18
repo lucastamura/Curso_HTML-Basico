@@ -2,349 +2,470 @@
     <head>
         <title>Exercícios</title>
     </head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    header {
+        background: #333;
+        width: 100%;
+        position:fixed;
+        padding: 10px;
+    }
+    .container{
+        padding: 50px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    h1{
+        font-size: 30;
+        color: #2471A3;
+        text-align: center;
+    }
+    h2{
+        font-size: 25;
+        color: #1E8449;
+        text-align: center;
+    }
+    h3{
+        font-size: 20;
+        color: #B7950B;
+        text-align: center;
+    }
+</style>
+
 <body>
-    <section id="Exercicio_1">
-        <h2>Ecercício 1</h2>
-        <p>Esta é a primeira vez que eu digito um documento HTML para criar uma página web</p>
-        <p>Nome: Lucas <br>
-           Nasc: 29/10/2003 <br>
-           End: Marília-SP <br>
-        </p>
-        <p>Muito Legal!</p>
-    </section>
 
-    <hr>
+    <!--Cabeçalho-->
+    <header>
+        <a href="" text-align="center"><font color="#FFF" size="3">Início</font></a>
+    </header>
 
-    <section id="Efeitos">
-        <h2>Efeitos</h2>
+    <!--Corpo do site-->
+    <div class="container">
 
-        <h3><b>Negrito</b></h3>
-        <b> Texto </b>
-        <p> Texto da página <b>web</b>.<p/>
-        
-        <br>
-        
-        <h3><i>Itálico</i></h3>
-        <i> Texto </i>
-        <p> Texto da página <i>web</i>.<p/>
-        
-        <br>
+        <!--ÍNDICE-->
+        <section>
+            <br><h1>Conteúdos aplicados no curso de HTML - Básico</h1><br><hr><br>
 
-        <h3><u>Sublinhado</u></h3>
-        <u>Texto</u>
-        <p> Texto da página <u>web</u>.<p/>
-    </section>
+            <div>
+                
+                <h1>Exercícios</h1><br>
 
-    <hr>
+                <a href="./Exercício 1/Exerc1.html" target="_blank">Exercício 1</a><br>
+                <a href="./Exercício 2/Exerc1.html" target="_blank">Exercício 2</a><br>
+                <a href="./Exercício 3/Exerc1.html" target="_blank">Exercício 3</a><br>
+                <a href="./Exercício 4/Exerc1.html" target="_blank">Exercício 4</a><br>
+                <a href="./Exercício 5/Exerc1.html" target="_blank">Exercício 5</a><br>
+                <a href="./Exercício 6/Exerc1.html" target="_blank">Exercício 6</a><br>
 
-    <section id="Alterando_Fontes">
+            </div>
 
-        <h2>Alterando Fontes</h2>
+            <div>
+                <h1>Índice</h1><br>
 
-        <h3>Alterando estilo de fonte</h3>
-        <p>Esta frase será visualizada com a fonte padrão.</p>
-        <p><font face="Comic Sans MS">Esta frase será viasualizada com a fonte Comic Sans MS.</font></p>
+                <a href="#Efeitos">Efeitos</a><br>
+                <a href=""></a><br>
+                <a href=""></a><br>
+                <a href=""></a><br>
+                <a href=""></a><br>
+            </div>
 
-        <br>
+            <br><hr><br>
+        </section>
 
-        <h3>Alterando tamanho da fonte</h3>
-        <font size="1">Tamanho: 1</font><br>
-        <font size="2">Tamanho: 2</font><br>
-        <font size="3">Tamanho: 3</font><br>
-        <font size="4">Tamanho: 4</font><br>
-        <font size="5">Tamanho: 5</font><br>
-        <font size="6">Tamanho: 6</font><br>
-        <font size="7">Tamanho: 7</font><br>
+        <!--EFEITOS-->
+        <section id="Efeitos">
 
-        <br>
+            <h1>Efeitos</h1><br>
+            
+            <div id="NEGRITO">
+                <h2><b>Negrito</b></h2><br>
+                <p>Código:</p>
+                <div>
+                    <textarea readonly rows='2' cols='40'><b> Texto </b>&#10;<p> Texto da página <b>web</b>.<p/>
+                    </textarea>
+                </div><br><br>
+                <p>Resultado:<p/>
+                <div>
+                    <b> Texto </b>
+                    <p> Texto da página <b>web</b>.
+                </div>
+                <br><br>
+            </div>
 
-        <h3>Alterando cor da fonte</h3>
-        <p><font face="Verdana" size="5" color="3289c7">Frase visualizada com a fonte Verdana, tamanho 5 e com uma das tonalidade da cor azul</font></p>
-    </section>
-
-    <hr>
-
-    <section id="Quebra de linha">
-        <h2>Quebra de linha</h2>
-        <h3>Sem 'br'</h3>
-        <p>Quanto o código HTML não informa ao navegador onde deve ocorrer a quebra de linha.</p>
-        <p>O usuário vera o conteudo de acordo com o tamanho da janela.</p>
-        <br>
-        <h3>Com 'br'</h3>
-        <p>Quanto o código HTML não informa ao navegador onde deve ocorrer a quebra de linha <br>
-           O usuário vera o conteudo de acordo com o tamanho da janela.</p>
-    </section>
-
-    <hr>
-
-    <section id="Linhas Horizontais">
-        <hr>
-        <b>Dados Pessoais:</b><br>
-        Nome: <br>
-        E-mail: <br>
-        <hr>
-        <b>Dados bancários:</b><br>
-        Banco: <br>
-        Agência: <br>
-        Conta corrente: <br>
-        <hr>
-
-    </section>
-
-    <hr>
-
-    <section id="Subtitulos">
-        <h2>Subtítulos</h2>
-
-        <h1><b>1. Linguagem de marcação HTML</b></h1>
-        <p>O HTML é uma das linguagens de marcação mais utilizadas</p>
-        <hr>
-        <h2><b>1.1 Breve Histórico</b></h2>
-        <p>Tudo começou quando em...</p>
-    </section>
-
-    <hr>
-
-    <section id="Comentarios">
-        <h2>Comentários</h2>
-        <!--Esta parte do texto precisa ser revisada. Ficará como comentário.
-        <p>O HTML é uma das linguagens de marcação mais utilizadas-->
-
-    </section>
-
-    <hr>
-
-    <section id="Tag preformatted">
-
-        <h2>Tag preformatted</h2>
-
-        <h3>Sem 'pre'</h3>
-        <!--Trecho da música Pastorinha de Noel Rosa (Domínio Público)-->
-        <p>A estrela d'alva no céu desponta
-                E a lua anda tonta com tamanho esplendor
-            E as pastorinhas pra consolo da lua
-                Vão cantando na rua lindos versos de amor
-        </p>
-
-        <h3>Com 'pre'</h3>
-        
-        <pre>
-            <p>A estrela d'alva no céu desponta
-    E a lua anda tonta com tamanho esplendor
-E as pastorinhas pra consolo da lua
-    Vão cantando na rua lindos versos de amor
-            </p>
-        </pre>
-
-    </section>
-
-    <hr>
-
-    <section id="Exercicio 2">
-        <h2>Exercício 2</h2>
-        <p><font face="Verdana" size="3" color="#FF0000">Inserindo efeitos na minha página <i>web</i>.</font></p>
-        <p>Nome: <b>Lucas</b> <br>
-           Nasc: <u>29/10/2003</u><br>
-           End: Rua Nove de Julho, 222, Marília-SP <br>
-        </p>
-        <hr>
-        <p>Muito Legal!</p>
-        <hr>
-    </section>
-
-    <hr>
-
-    <section id="Criando Lista">
-
-        <h2>Listas</h2>
-
-        <h3>Lista ordenada</h3>
-        <p><font face="Calibri" size="4">Para criar um documento HTML é necessárop seguir os passos abaixo.</font></p>
-        <ol>
-            <li>Acessar o Bloco de Notas.</li>
-            <li>Indicar atraés da <i>tag </i> &#60;HTML&#62; o tipo de documento criado.</li>
-        </ol>
-        <p>Esses são os primeiros passos para se criar uma página <i>web</i>.</p>
-
-        <h3>Lista não ordenada</h3>
-        <p><font face="Calibri" size="4">Segue abaixo lista de materiais necessários:</font></p>
-        <ul>
-            <li>Leads</li>
-            <li>Conectoes</li>
-            <li>Chave de Fenda Philips</li>
-            <li>Alicate</li>
-        </ul>
-
-        <h3>Lista Intercalada</h3>
-        <p><font face="Calibri" size="4">Principais características dos <i>notebooks</i> pesquisados:</font></p>
-        <ol>
-            <li>Orange</li>
-            <ul>
-                <li>Tela sensível ao toque de 13"</li>
-                <li>3 entradas de USP</li>
-            </ul>
-            <li>Lemon</li>
-            <ul>
-                <li>Tela sensível ao toque de 15"</li>
-                <li>2 entradas de USB</li>
-            </ul>
-        </ol>
-        <p>Após a análise o grupo deverá escolher a melhor opção para o trabalho a ser realizado.</p>
-
-        <h3>Personalização</h3>
-        <h4>Letras grandes</h4>
-        <ol type="A">
-            <li>Acordar</li>
-            <li>Escovar os dentes</li>
-            <li>Tomar café da manhã</li>
-        </ol>
-
-        <h4>Letras pequenas</h4>
-        <ol type="a">
-            <li>Acordar</li>
-            <li>Escovar os dentes</li>
-            <li>Tomar café da manhã</li>
-        </ol>
-
-        <h4>Números romanos grandes</h4>
-        <ol type="I">
-            <li>Acordar</li>
-            <li>Escovar os dentes</li>
-            <li>Tomar café da manhã</li>
-        </ol>
-
-        <h4>Letras pequenas</h4>
-        <ol type="i">
-            <li>Acordar</li>
-            <li>Escovar os dentes</li>
-            <li>Tomar café da manhã</li>
-        </ol>
-
-        <h4>Disco</h4>
-        <ul type="disc">
-            <li>Farinha</li>
-            <li>Ovo</li>
-            <li>Leite</li>
-            <li>Sal</li>
-        </ul>
-
-        <h4>Cisculo</h4>
-        <ul type="circle">
-            <li>Farinha</li>
-            <li>Ovo</li>
-            <li>Leite</li>
-            <li>Sal</li>
-        </ul>
-
-        <h4>Quadrado</h4>
-        <ul type="square">
-            <li>Farinha</li>
-            <li>Ovo</li>
-            <li>Leite</li>
-            <li>Sal</li>
-        </ul>
-
+            <div id="ITÁLICO">
+                <h2><i>Itálico</i></h2><br>
+                <p>Código:</p>
+                <div>
+                    <textarea readonly rows='2' cols='40'><i> Texto </i>&#10;<p> Texto da página <i>web</i>.<p/>
+                    </textarea>
+                </div><br><br>
     
-    </section>
+                <p>Resultado:<p/>
+                <div>
+                    <i> Texto </i>
+                    <p> Texto da página <i>web</i>.
+                </div>
+                <br><br>
+            </div>
 
-    <hr>
-
-    <section id="Imagens">
-        <h2>Imagens</h2>
-        <h3>Inserindo Imagens</h3>
-        <img src="https://d1vs1x3ni0c692.cloudfront.net/wp-content/uploads/2019/02/06030257/parceiro-fundacaobradesco-e1549434559481.png">
+            <div id="SUBLINHADO">
+                <h2><u>Sublinhado</u></h2><br>
+                <p>Código:</p>
+                <div>
+                    <textarea readonly rows='2' cols='40'><u> Texto </u>&#10;<p> Texto da página <u>web</u>.<p/>
+                    </textarea>
+                </div><br><br>
+    
+                <p>Resultado:<p/>
+                <div>
+                    <u> Texto </u><br>
+                    <p> Texto da página <u>web</u>.</p>
+                </div>
+                <br><br>
+            </div>
+            <hr>
+        </section>
+    
         
-        <h3>Alinhando imagem</h3>
-        <h4>Topo</h4>
-        <p>Exemplo de texto. <img src="./Image/star.png" align="top"> Exemplo de texto.</p>
+        <!--ALTERANDO FONTES-->
+        <section id="Alterando_Fontes">
+    
+            <br><h1>Alterando Fontes</h1><br><br>
+
+            <div id="Estilo de Fonte">
+                <h2>Alterando estilo de fonte</h2><br>
+                <p>Esta frase será visualizada com a fonte padrão.</p>
+                <p><font face="Comic Sans MS">Esta frase será viasualizada com a fonte Comic Sans MS.</font></p>
+                <br><br><br>
+            </div>
+
+            <div id="Tamanho da Fonte">
+                <h2>Alterando tamanho da fonte</h2><br>
+                <font size="1">Tamanho: 1</font><br>
+                <font size="2">Tamanho: 2</font><br>
+                <font size="3">Tamanho: 3</font><br>
+                <font size="4">Tamanho: 4</font><br>
+                <font size="5">Tamanho: 5</font><br>
+                <font size="6">Tamanho: 6</font><br>
+                <font size="7">Tamanho: 7</font><br>        
+                <br><br>
+            </div>
+
+            <div id="Cor da Fonte">
+                <h2>Alterando cor da fonte</h2><br>
+                <p><font face="Verdana" size="5" color="3289c7">Frase visualizada com a fonte Verdana, tamanho 5 e com uma das tonalidade da cor azul</font></p>
+                <br><br>    
+            </div>
+            <hr>
+        </section>
+    
         
-        <h4>Rodapé</h4>
-        <p>Exemplo de texto. <img src="./Image/star.png" align="bottom"> Exemplo de texto.</p>
+    
+        <section id="Quebra de linha">
+            
+            <br><h1>Quebra de linha</h2>
 
-        <h4>Meio</h4>
-        <p>Exemplo de texto. <img src="./Image/star.png" align="middle"> Exemplo de texto.</p>
+            <br><br>
 
-        <h4>Diretira</h4>
-        <p>Exemplo de texto. <img src="./Image/star.png" align="right"> Exemplo de texto.</p>
-
-        <h4>Esquerda</h4>
-        <p>Exemplo de texto. <img src="./Image/star.png" align="left"> Exemplo de texto.</p>
-
-        
-    </section>
-
-    <hr>
-
-    <section id="Links">
-        <h2>Links</h2>
-
-        <h3>Criando Links</h3>
-        <p><font face="Calibri" size="">Inserindo <i>link</i> em um texto.</p>
-        <a href="http://www.google.com">Clique aqui</a> para acessar o Google</font>
-
-        <h3>Linkando e-mail</h3>
-        <a href="mailto:lucas10.tamura@gmail.com">Entre em contato</a>
-
-        <h3>Link de uma seção na mesma página</h3>
-        <p><font face="Calibri" size="3">Inserindo <i>links</i> criando seções</p>
-        <p>Neste exemplo você verá que, quando o texto for muito grande você poderá criar <i>links</i> que levem o usuário diretamente ao ponto desejado.</p>
-        <a href="#Capítulo I">O que é HTML?</a>
-        <a href="#Capítulo II">Principais comandos</a>
-        <br>
-        <br>
-        <a name="Capítulo I">
-            <h2>O que é HTML?</h2>
-            <p>HTML é uma das linguagem de marcação mais conhecidas e utilza um formato simples de código que pode ser ferado sem a ajuda de aplicativos especiais.</p>
-            <p>Para criar um documento HTML, todo o que você precisa é de um editor de texto de ASCII como o NotePade (Bloco de Notas), por exemplo. Se você precisar verificar a formatação do documento durante a criação, pode usar qualquer navegador, pois todos eles são capazes de interpretar o código.</p>
-        </a>
-        <a name="Capítulo II">
-            <h3>Principais comandos</h3>
-            <p>Os comandos são inseridos no código entre os sinais de menor que "<" e maior que ">" e são chamados de <i>tags</i>.</p>
-        </a>
-        </font>
-
-
-        <h3>Cores do link</h3>
-        <a href="https://github.com/lucastamura" target="_blank" link="red" vlink="blue" alink="green">Link</a>
-    </section>
-
-    <hr>
-
-    <section>
-        <h2>Tag ANCHOR e as tags de formatação</h2>
-        <p><font face="Calibri" size="5">Combinado a <i>tag</i> ANCHOR com as <i>tags</i> de formatação.</font></p>
-
-        <ol>
-            <li><a href="#Exerc1"><font color="green">Reveja o exercício 1</font></a></li>
-            <li><a href="#Exerc2"><font color="red">Reveja o exercício 2</font></a></li>
-            <li><a href="#Exerc3"><font color="purple">Reveja o exercício 3</font></a></li>
-        </ol>
-        <a name="Exerc1">
-            <h2>Exercício 1</h2>
-        </>
-        <a name="Exerc2">
+            <h2>Sem 'br'</h2><br>
+            <p>Quanto o código HTML não informa ao navegador onde deve ocorrer a quebra de linha.</p>
+            <p>O usuário vera o conteudo de acordo com o tamanho da janela.</p>
+            <br>
+            <h2>Com 'br'</h2>
+            <p>Quanto o código HTML não informa ao navegador onde deve ocorrer a quebra de linha <br>
+               O usuário vera o conteudo de acordo com o tamanho da janela.</p>
+        </section>
+    
+        <hr>
+    
+        <section id="Linhas Horizontais">
+            <hr>
+            <b>Dados Pessoais:</b><br>
+            Nome: <br>
+            E-mail: <br>
+            <hr>
+            <b>Dados bancários:</b><br>
+            Banco: <br>
+            Agência: <br>
+            Conta corrente: <br>
+            <hr>
+    
+        </section>
+    
+        <hr>
+    
+        <section id="Subtitulos">
+            <h2>Subtítulos</h2>
+    
+            <h1><b>1. Linguagem de marcação HTML</b></h1>
+            <p>O HTML é uma das linguagens de marcação mais utilizadas</p>
+            <hr>
+            <h2><b>1.1 Breve Histórico</b></h2>
+            <p>Tudo começou quando em...</p>
+        </section>
+    
+        <hr>
+    
+        <section id="Comentarios">
+            <h2>Comentários</h2>
+            <!--Esta parte do texto precisa ser revisada. Ficará como comentário.
+            <p>O HTML é uma das linguagens de marcação mais utilizadas-->
+    
+        </section>
+    
+        <hr>
+    
+        <section id="Tag preformatted">
+    
+            <h2>Tag preformatted</h2>
+    
+            <h3>Sem 'pre'</h3>
+            <!--Trecho da música Pastorinha de Noel Rosa (Domínio Público)-->
+            <p>A estrela d'alva no céu desponta
+                    E a lua anda tonta com tamanho esplendor
+                E as pastorinhas pra consolo da lua
+                    Vão cantando na rua lindos versos de amor
+            </p>
+    
+            <h3>Com 'pre'</h3>
+            
+            <pre>
+                <p>A estrela d'alva no céu desponta
+        E a lua anda tonta com tamanho esplendor
+    E as pastorinhas pra consolo da lua
+        Vão cantando na rua lindos versos de amor
+                </p>
+            </pre>
+    
+        </section>
+    
+        <hr>
+    
+        <section id="Exercicio 2">
             <h2>Exercício 2</h2>
-        </a>
-        <a name="Exerc3">
-            <h2>Exercício 3</h2>
-        </a>
-
-
-    </section>
-
-    <hr>
-
-    <section>
-        <h2>Tag ANCHOR e tag IMAGE</h2>
-
-        <p><FONT face="Calibri" size="3">Combinando a <i>tag</i> ANCHOR com a <i>tag</i> IMAGE.</p>        
-        <ul>
-            <li><a href="Produtos.html"><img src="/Image/Imagem1.jpg">Produtos</a><br>
-            <li><a href="Serviços.html"><img src="/Image/Imagem2.jpg">Serviços</a><br>
-            <li><a href="Contato.html"><img src="/Image/Imagem3.jpg">Contato</a><br>
-        </ul>
-        </FONT>
-    </section>
+            <p><font face="Verdana" size="3" color="#FF0000">Inserindo efeitos na minha página <i>web</i>.</font></p>
+            <p>Nome: <b>Lucas</b> <br>
+               Nasc: <u>29/10/2003</u><br>
+               End: Rua Nove de Julho, 222, Marília-SP <br>
+            </p>
+            <hr>
+            <p>Muito Legal!</p>
+            <hr>
+        </section>
+    
+        <hr>
+    
+        <section id="Criando Lista">
+    
+            <h2>Listas</h2>
+    
+            <h3>Lista ordenada</h3>
+            <p><font face="Calibri" size="4">Para criar um documento HTML é necessárop seguir os passos abaixo.</font></p>
+            <ol>
+                <li>Acessar o Bloco de Notas.</li>
+                <li>Indicar atraés da <i>tag </i> &#60;HTML&#62; o tipo de documento criado.</li>
+            </ol>
+            <p>Esses são os primeiros passos para se criar uma página <i>web</i>.</p>
+    
+            <h3>Lista não ordenada</h3>
+            <p><font face="Calibri" size="4">Segue abaixo lista de materiais necessários:</font></p>
+            <ul>
+                <li>Leads</li>
+                <li>Conectoes</li>
+                <li>Chave de Fenda Philips</li>
+                <li>Alicate</li>
+            </ul>
+    
+            <h3>Lista Intercalada</h3>
+            <p><font face="Calibri" size="4">Principais características dos <i>notebooks</i> pesquisados:</font></p>
+            <ol>
+                <li>Orange</li>
+                <ul>
+                    <li>Tela sensível ao toque de 13"</li>
+                    <li>3 entradas de USP</li>
+                </ul>
+                <li>Lemon</li>
+                <ul>
+                    <li>Tela sensível ao toque de 15"</li>
+                    <li>2 entradas de USB</li>
+                </ul>
+            </ol>
+            <p>Após a análise o grupo deverá escolher a melhor opção para o trabalho a ser realizado.</p>
+    
+            <h3>Personalização</h3>
+            <h4>Letras grandes</h4>
+            <ol type="A">
+                <li>Acordar</li>
+                <li>Escovar os dentes</li>
+                <li>Tomar café da manhã</li>
+            </ol>
+    
+            <h4>Letras pequenas</h4>
+            <ol type="a">
+                <li>Acordar</li>
+                <li>Escovar os dentes</li>
+                <li>Tomar café da manhã</li>
+            </ol>
+    
+            <h4>Números romanos grandes</h4>
+            <ol type="I">
+                <li>Acordar</li>
+                <li>Escovar os dentes</li>
+                <li>Tomar café da manhã</li>
+            </ol>
+    
+            <h4>Letras pequenas</h4>
+            <ol type="i">
+                <li>Acordar</li>
+                <li>Escovar os dentes</li>
+                <li>Tomar café da manhã</li>
+            </ol>
+    
+            <h4>Disco</h4>
+            <ul type="disc">
+                <li>Farinha</li>
+                <li>Ovo</li>
+                <li>Leite</li>
+                <li>Sal</li>
+            </ul>
+    
+            <h4>Cisculo</h4>
+            <ul type="circle">
+                <li>Farinha</li>
+                <li>Ovo</li>
+                <li>Leite</li>
+                <li>Sal</li>
+            </ul>
+    
+            <h4>Quadrado</h4>
+            <ul type="square">
+                <li>Farinha</li>
+                <li>Ovo</li>
+                <li>Leite</li>
+                <li>Sal</li>
+            </ul>
+    
+        
+        </section>
+    
+        <hr>
+    
+        <section id="Imagens">
+            <h2>Imagens</h2>
+            <h3>Inserindo Imagens</h3>
+            <img src="https://d1vs1x3ni0c692.cloudfront.net/wp-content/uploads/2019/02/06030257/parceiro-fundacaobradesco-e1549434559481.png">
+            
+            <h3>Alinhando imagem</h3>
+            <h4>Topo</h4>
+            <p>Exemplo de texto. <img src="./Image/star.png" align="top"> Exemplo de texto.</p>
+            
+            <h4>Rodapé</h4>
+            <p>Exemplo de texto. <img src="./Image/star.png" align="bottom"> Exemplo de texto.</p>
+    
+            <h4>Meio</h4>
+            <p>Exemplo de texto. <img src="./Image/star.png" align="middle"> Exemplo de texto.</p>
+    
+            <h4>Diretira</h4>
+            <p>Exemplo de texto. <img src="./Image/star.png" align="right"> Exemplo de texto.</p>
+    
+            <h4>Esquerda</h4>
+            <p>Exemplo de texto. <img src="./Image/star.png" align="left"> Exemplo de texto.</p>
+    
+            
+        </section>
+    
+        <hr>
+    
+        <section id="Links">
+            <h2>Links</h2>
+    
+            <h3>Criando Links</h3>
+            <p><font face="Calibri" size="">Inserindo <i>link</i> em um texto.</p>
+            <a href="http://www.google.com">Clique aqui</a> para acessar o Google</font>
+    
+            <h3>Linkando e-mail</h3>
+            <a href="mailto:lucas10.tamura@gmail.com">Entre em contato</a>
+    
+            <h3>Link de uma seção na mesma página</h3>
+            <p><font face="Calibri" size="3">Inserindo <i>links</i> criando seções</p>
+            <p>Neste exemplo você verá que, quando o texto for muito grande você poderá criar <i>links</i> que levem o usuário diretamente ao ponto desejado.</p>
+            <a href="#Capítulo I">O que é HTML?</a>
+            <a href="#Capítulo II">Principais comandos</a>
+            <br>
+            <br>
+            <a name="Capítulo I">
+                <h2>O que é HTML?</h2>
+                <p>HTML é uma das linguagem de marcação mais conhecidas e utilza um formato simples de código que pode ser ferado sem a ajuda de aplicativos especiais.</p>
+                <p>Para criar um documento HTML, todo o que você precisa é de um editor de texto de ASCII como o NotePade (Bloco de Notas), por exemplo. Se você precisar verificar a formatação do documento durante a criação, pode usar qualquer navegador, pois todos eles são capazes de interpretar o código.</p>
+            </a>
+            <a name="Capítulo II">
+                <h3>Principais comandos</h3>
+                <p>Os comandos são inseridos no código entre os sinais de menor que "<" e maior que ">" e são chamados de <i>tags</i>.</p>
+            </a>
+            </font>
+    
+    
+            <h3>Cores do link</h3>
+            <a href="https://github.com/lucastamura" target="_blank" link="red" vlink="blue" alink="green">Link</a>
+        </section>
+    
+        <hr>
+    
+        <section>
+            <h2>Tag ANCHOR e as tags de formatação</h2>
+            <p><font face="Calibri" size="5">Combinado a <i>tag</i> ANCHOR com as <i>tags</i> de formatação.</font></p>
+    
+            <ol>
+                <li><a href="#Exerc1"><font color="green">Reveja o exercício 1</font></a></li>
+                <li><a href="#Exerc2"><font color="red">Reveja o exercício 2</font></a></li>
+                <li><a href="#Exerc3"><font color="purple">Reveja o exercício 3</font></a></li>
+            </ol>
+            <a name="Exerc1">
+                <h2>Exercício 1</h2>
+            </>
+            <a name="Exerc2">
+                <h2>Exercício 2</h2>
+            </a>
+            <a name="Exerc3">
+                <h2>Exercício 3</h2>
+            </a>
+    
+    
+        </section>
+    
+        <hr>
+    
+        <section>
+            <h2>Tag ANCHOR e tag IMAGE</h2>
+    
+            <p><FONT face="Calibri" size="3">Combinando a <i>tag</i> ANCHOR com a <i>tag</i> IMAGE.</p>        
+            <ul>
+                <li><a href="Produtos.html"><img src="/Image/Imagem1.jpg">Produtos</a><br>
+                <li><a href="Serviços.html"><img src="/Image/Imagem2.jpg">Serviços</a><br>
+                <li><a href="Contato.html"><img src="/Image/Imagem3.jpg">Contato</a><br>
+            </ul>
+            </FONT>
+        </section>
+    
+        <section>
+            <h2>Imagem mapeada</h2>
+    
+            <img src="/Image/imagem_menu.gif" usemap="#menu" border="0">
+    
+            <map name="menu">
+                <area shape="rect" coords="11,13,115,52" href="http://www.fb.org.br" alt="Item 1">
+                <area shape="rect" coords="11,55,114,94" href="http://www.ev.org.br" alt="Item 2">
+                <area shape="rect" coords="11,99,114,137" href="http://www.educacao.org.br" alt="Item 3">
+                <area shape="rect" coords="11,142,114,180" href="http://www.google.com.br" alt="Item 4">
+                <area shape="rect" coords="11,184,115,221" href="http://www.fb.org.br" alt="Item 5">
+            </map>
+        </section>
+    
+    </div>
 
 
 </body>
